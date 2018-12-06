@@ -25,7 +25,8 @@ XData UrlMap [ XMLNamespace = "http://www.intersystems.com/urlmap" ]
 ClassMethod IsValidUser() As %Status
 {
 	#Dim tSC As %Status = $$$OK
-    #Dim tEx As %Exception.AbstractException    
+    #Dim tEx As %Exception.AbstractException
+    Quit $$$OK    
     //h 10
     Try {    	
     	//Set tBusinessService = ""
