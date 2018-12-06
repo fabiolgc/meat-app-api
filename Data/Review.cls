@@ -40,7 +40,7 @@ Storage Default
 <IdLocation>^Data.ReviewD</IdLocation>
 <IndexLocation>^Data.ReviewI</IndexLocation>
 <StreamLocation>^Data.ReviewS</StreamLocation>
-<Type>%Library.CacheStorage</Type>
+<Type>%Storage.Persistent</Type>
 }
 
 }

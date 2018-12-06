@@ -68,7 +68,7 @@ Storage Default
 <IdLocation>^Data.RestaurantD</IdLocation>
 <IndexLocation>^Data.RestaurantI</IndexLocation>
 <StreamLocation>^Data.RestaurantS</StreamLocation>
-<Type>%Library.CacheStorage</Type>
+<Type>%Storage.Persistent</Type>
 }
 
 }

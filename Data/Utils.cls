@@ -212,7 +212,7 @@ Storage Default
 <IdLocation>^Data.UtilsD</IdLocation>
 <IndexLocation>^Data.UtilsI</IndexLocation>
 <StreamLocation>^Data.UtilsS</StreamLocation>
-<Type>%Library.CacheStorage</Type>
+<Type>%Storage.Persistent</Type>
 }
 
 }

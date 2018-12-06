@@ -45,7 +45,7 @@ Storage Default
 <IdLocation>^Data.MenuItemD</IdLocation>
 <IndexLocation>^Data.MenuItemI</IndexLocation>
 <StreamLocation>^Data.MenuItemS</StreamLocation>
-<Type>%Library.CacheStorage</Type>
+<Type>%Storage.Persistent</Type>
 }
 
 }
