@@ -60,7 +60,7 @@ Storage Default
 <IdLocation>^Api.BS.Msg.NewTransactionReqD</IdLocation>
 <IndexLocation>^Api.BS.Msg.NewTransactionReqI</IndexLocation>
 <StreamLocation>^Api.BS.Msg.NewTransactionReqS</StreamLocation>
-<Type>%Library.CacheStorage</Type>
+<Type>%Storage.Persistent</Type>
 }
 
 }

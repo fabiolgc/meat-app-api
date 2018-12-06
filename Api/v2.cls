@@ -28,8 +28,8 @@ ClassMethod IsValidUser() As %Status
     #Dim tEx As %Exception.AbstractException    
     //h 10
     Try {    	
-    	Set tBusinessService = ""
-    	Set tBusinessServiceName = ..%ConfigName
+    	//Set tBusinessService = ""
+    	//Set tBusinessServiceName = ..%ConfigName
     	Set tSC = ..CreateBusinessService(tBusinessServiceName, .tBusinessService)
     	If $$$ISERR(sc) {
 			$$$ThrowStatus(sc)			
